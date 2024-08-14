@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1920px) {
+
+    .container {
+        max-width: 1600px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1660px) {
+
+    .container {
+        max-width: 1400px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+
+    .container {
+        max-width: 992px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .container {
+        max-width: 700px;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .container {
+        max-width: 600px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+
+    .container {
+        padding: 0 20px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,122 @@
+.fonts {
+    padding: 40px;
+    margin: 0px auto;
+}
+
+.main {
+    height: 100%;
+    color: var(--text-color-light-1);
+    background-color: var(--text-color-dark-1);
+    padding: 10px 30px;
+    border-radius: 30px;
+
+    .container {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+
+        h1 {
+            font-size: 48px;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 25px;
+        }
+    }
+
+    .customDetails {
+        h1 {
+            font-family: var(--syne);
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 20px;
+        }
+
+        p {
+            font-family: var(--Manrope);
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 30px;
+        }
+    }
+}
+
+// --------------------------------------------------
+
+.main .container div:nth-child(1) h1,
+.main .container div:nth-child(1) p {
+    font-family: var(--syne);
+}
+
+.main .container div:nth-child(2) h1,
+.main .container div:nth-child(2) p {
+    font-family: var(--Josefin);
+}
+
+.main .container div:nth-child(3) h1,
+.main .container div:nth-child(3) p {
+    font-family: var(--ubuntu);
+}
+
+.main .container div:nth-child(4) h1,
+.main .container div:nth-child(4) p {
+    font-family: var(--Manrope);
+}
+
+.main .container div:nth-child(5) h1,
+.main .container div:nth-child(5) p {
+    font-family: var(--Montserrat);
+}
+
+.main .container div:nth-child(6) h1,
+.main .container div:nth-child(6) p {
+    font-family: var(--gwendolyn);
+}
+
+.main .container div:nth-child(7) h1,
+.main .container div:nth-child(7) p {
+    font-family: var(--teko);
+}
+
+.main .container div:nth-child(8) h1,
+.main .container div:nth-child(8) p {
+    font-family: var(--pacifico);
+}
+
+.main .container div:nth-child(9) h1,
+.main .container div:nth-child(9) p {
+    font-family: var(--Comfortaa);
+}
+
+.main .container div:nth-child(10) h1,
+.main .container div:nth-child(10) p {
+    font-family: var(--rajdhani);
+}
+
+.main .container div:nth-child(11) h1,
+.main .container div:nth-child(11) p {
+    font-family: var(--bodoni-moda);
+}
+
+.main .container div:nth-child(12) h1,
+.main .container div:nth-child(12) p {
+    font-family: var(--dongle);
+}
+
+.main .container div:nth-child(13) h1,
+.main .container div:nth-child(13) p {
+    font-family: var(--gruppo);
+}
+
+.main .container div:nth-child(14) h1,
+.main .container div:nth-child(14) p {
+    font-family: var(--poiret-one);
+}
+
+.main .container div:nth-child(15) h1,
+.main .container div:nth-child(15) p {
+    font-family: var(--sofia);
+}

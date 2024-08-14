@@ -1,0 +1,46 @@
+
+//Page Loader Animation Div
+.left_curtain_animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: var(--text-color-dark-1);
+    z-index: 2;
+    animation: curtainLeft 1s ease forwards;
+    transform-origin: left;
+  }
+  
+  @keyframes curtainLeft {
+    0% {
+      transform: scaleX(1);
+    }
+  
+    100% {
+      transform: scaleX(0);
+    }
+  }
+  
+  .right_curtain_animation {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: var(--text-color-dark-1);
+    z-index: 2;
+    animation: curtainRight 1s ease forwards;
+    transform-origin: right;
+  }
+  
+  
+  @keyframes curtainRight {
+    0% {
+      transform: scaleX(1);
+    }
+  
+    100% {
+      transform: scaleX(0);
+    }
+  }
