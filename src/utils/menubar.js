@@ -14,10 +14,10 @@ const menubarData = {
                     name: 'Projects',
                     slug: '/projects',
                 },
-                {
-                    name: 'Fonts',
-                    slug: '/fonts',
-                },
+                // {
+                //     name: 'Fonts',
+                //     slug: '/fonts',
+                // },
             ]
 
         }

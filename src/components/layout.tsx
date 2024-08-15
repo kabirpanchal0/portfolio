@@ -17,7 +17,7 @@ interface SeoData {
 
 export default function Layout({
   children, seoData
-}: Readonly<{ children: React.ReactNode; seoData?: any }>) {
+}: Readonly<{ children?: React.ReactNode; seoData?: any }>) {
   const title = seoData;
   const menuData: any = menubarData;
   return (
